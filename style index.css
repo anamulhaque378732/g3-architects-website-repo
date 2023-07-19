@@ -14,7 +14,10 @@ background: rgba(255, 144, 14, 0.10);
 padding:50px 150px;
 
 }
+.common-color{
+    color: #424242;
 
+}
 .nav-title{
     color: #131313;
     font-size: 3rem;
@@ -33,11 +36,7 @@ nav li{
     margin-right: 30px;
 
 }
-nav li a{
-    color: var(--dark-02, #424242);
-
-    font-size: 18px;
-    font-weight: 500; 
+  
     
     
 }
@@ -46,7 +45,7 @@ nav li a{
     text-align: center;
 }
 .banner-title{
-    color: #131313;
+     
 text-align: center;
 
 font-size: 64px;
@@ -106,7 +105,7 @@ margin-left: 180px;
 
 
 .span-1{
-   color: #131313;
+    
 
 font-weight: 700;
  
@@ -117,15 +116,61 @@ font-size: 45px;
 font-weight: 700;
  
 }
-.feature-description{
-    color: #727272;
-font-size: 16px;
-font-weight: 400;
+.features{
+margin: 30px 150px;
+
+
+
+
+
+
+
+
+    display: flex;
 }
 
+.feature-sections{
+    padding-right: 30px;
+}
+.photo-ar{
+    width: 500px;
+    
+}
+.button-10{
+    margin-top: -100px;
+}
 
+.feature-title-2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.anamul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 80px;
+}
 
+.facts-card-container .card{
+padding: 40px;
+    border: 1px solid #FF900E;
+    text-align: center;
 
+}
+
+.facts-card-container .card-title{
+    font-weight: 700;
+    color:#727272 ;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.facts-card-container .card-stats{
+    font-size: 45;
+    color: #424242;
+}
 
 
 
@@ -151,6 +196,12 @@ nav{
 }
 .team-element{
     padding: 10px;
+}
+.features{
+    flex-direction: column;
+}
+.facts-card-container{
+    flex-direction: column;
 }
 
 }
